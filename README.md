@@ -1,6 +1,8 @@
+# Transcribe multiple MP3-files with Whisper regardless of their size #
+
 Hi!
 
-This project aims to assist individuals struggling to fid a way to utilize the Whisper 1 API from the OpenAI platform for transcribing multiple files.
+This project aims to assist individuals struggling to find a way to utilize the Whisper 1 API from the OpenAI platform for transcribing multiple files.
 Please note that the Whisper 1 API is no longer the most efficient way for using Whisper, as there are ow the whisper-3 model on HuggingFace and Whisper JAX. The Whisper 1 API may take approximately 1 min or more to transcribe a 300 MB mp3-file. 
 Depending on the total size of the mp3 files in your directory, this script could run for several minutes or even hours. If possess strong programming skills and are capable of setting up the necessary requirements for using these methods, consider switching.
 This project serves merely as a demonstration for a client who sought a straightforward and easy script.
